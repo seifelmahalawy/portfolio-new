@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Seif Elmahalawy — Cybersecurity Engineer." />
+  <title>Seif Elmahalawy | Cybersecurity Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Seif Elmahalawy home">
+      <span class="brand-mark">SE</span>
+      <span class="brand-text">SEIF<span class="muted">/</span>SEC</span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> SYSTEM ONLINE · CAIRO, EGYPT</div>
+        <h1><span>Cybersecurity</span><br><em>Engineer</em></h1>
+        <p class="hero-lede">
+          Security-focused computer science professional with hands-on experience across red team exercises,
+          vulnerability scanning, Linux administration, networking, AI, and software development.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View Projects <span>↗</span></a>
+          <a class="btn btn-ghost" href="mailto:seif.hossameldein@gmail.com">Get In Touch</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://linkedin.com/in/seifelmahalawy" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/seifelmahalawy" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <span>Open to cybersecurity opportunities</span>
+        </div>
+      </div>
+
+      <div class="terminal-card" aria-label="Profile terminal">
+        <div class="terminal-bar">
+          <span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span>
+          <span class="terminal-title">seif@security:~</span>
+        </div>
+        <div class="terminal-body">
+          <div><span class="prompt">$</span> whoami</div>
+          <div class="terminal-output">Seif Elmahalawy</div>
+          <div><span class="prompt">$</span> role</div>
+          <div class="terminal-output accent">Cybersecurity Engineer</div>
+          <div><span class="prompt">$</span> focus</div>
+          <div class="terminal-output">Red Team · Networking · Linux</div>
+          <div class="terminal-output">AI Security · Software Engineering</div>
+          <div><span class="prompt">$</span> status</div>
+          <div class="terminal-output online">● READY</div>
+          <span class="cursor" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell section-block split-section">
+      <div>
+        <p class="section-kicker">01 / PROFILE</p>
+        <h2>Security mindset.<br><span>Engineering discipline.</span></h2>
+      </div>
+      <div class="section-text">
+        <p>
+          I’m a Computer Science and Artificial Intelligence student at Cairo University, building practical skills
+          in cybersecurity, networking, systems, and software engineering.
+        </p>
+        <p>
+          My experience includes supporting community members with technical troubleshooting, developing Python
+          automation for vulnerability scanning during red team exercises, and building applied computer-vision systems.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell section-block">
+      <div class="section-heading-row">
+        <div>
+          <p class="section-kicker">02 / CAPABILITIES</p>
+          <h2>Technical <span>stack</span></h2>
+        </div>
+        <div class="heading-line"></div>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card featured-skill">
+          <div class="skill-index">[01]</div>
+          <h3>Cybersecurity & Networking</h3>
+          <p>HCIP Security · Red Team Fundamentals · Vulnerability Scanning · CCNA Networking</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-index">[02]</div>
+          <h3>Systems & Tools</h3>
+          <p>Ubuntu Linux · Red Hat System Administration · Git · GitHub · OOP · Data Structures · Algorithms</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-index">[03]</div>
+          <h3>AI & Computer Vision</h3>
+          <p>YOLOv8 · Surya OCR · DeepFace · ArcFace · Facenet512 · Facenet · OpenCV · Deep Learning</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-index">[04]</div>
+          <h3>Development</h3>
+          <p>Python · C++ · Java · JavaScript · SQL · HTML/CSS · React.js · FastAPI · Django · Node.js · REST APIs</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell section-block">
+      <div class="section-heading-row">
+        <div>
+          <p class="section-kicker">03 / SELECTED WORK</p>
+          <h2>Projects that <span>ship</span></h2>
+        </div>
+        <div class="heading-line"></div>
+      </div>
+
+      <div class="projects-list">
+        <article class="project-card project-featured">
+          <div class="project-topline"><span>01</span><span>AI · CV · SECURITY</span></div>
+          <div class="project-body">
+            <div>
+              <h3>ID Reader</h3>
+              <p class="project-subtitle">Egyptian ID Verification System</p>
+            </div>
+            <div class="project-description">
+              <p>
+                AI-powered system for detecting and orienting Egyptian ID cards, locating fields, extracting Arabic text,
+                verifying authenticity, and comparing a cardholder photo with a live facial image.
+              </p>
+              <div class="tag-row">
+                <span>YOLOv8</span><span>Surya OCR</span><span>DeepFace</span><span>OpenCV</span><span>React</span><span>FastAPI</span>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="projects-two-col">
+          <article class="project-card">
+            <div class="project-topline"><span>02</span><span>AUTOMATION</span></div>
+            <h3>Discord Image Reader</h3>
+            <p>Discord bot that extracts text from images shared in a server and automatically responds with recognized text.</p>
+            <div class="tag-row"><span>Discord</span><span>Image-to-Text</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span>03</span><span>SOFTWARE</span></div>
+            <h3>Library Website</h3>
+            <p>Full-stack website built with HTML, CSS, JavaScript, and Django, including GitHub OAuth and repository activity visualization.</p>
+            <div class="tag-row"><span>Django</span><span>JavaScript</span><span>GitHub OAuth</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span>04</span><span>C++ · OOP</span></div>
+            <h3>Parking System Simulation</h3>
+            <p>Parking simulation with automatic vehicle entry, exit, parking-fee tracking, and a simple user interface.</p>
+            <div class="tag-row"><span>C++</span><span>OOP</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span>05</span><span>IMAGE PROCESSING</span></div>
+            <h3>Image Filters</h3>
+            <p>C++ image-processing program supporting grayscale, inversion, and blur filters using object-oriented design.</p>
+            <div class="tag-row"><span>C++</span><span>OOP</span></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline"><span>06</span><span>GAME DEV</span></div>
+            <h3>X/O Game</h3>
+            <p>Customizable X/O game supporting multiple board sizes and game modes, built with C++ and OOP concepts.</p>
+            <div class="tag-row"><span>C++</span><span>OOP</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section-shell section-block">
+      <div class="section-heading-row">
+        <div>
+          <p class="section-kicker">04 / EXPERIENCE</p>
+          <h2>Where I’ve <span>worked</span></h2>
+        </div>
+        <div class="heading-line"></div>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">SEP 2024 — PRESENT</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Cairo University</h3>
+            <p class="role">Minders · Cairo, Egypt</p>
+            <ul>
+              <li>Used Git and foundational software-engineering practices to troubleshoot and resolve computer issues for community members.</li>
+              <li>Developed Python scripts to automate network vulnerability scans during red team cybersecurity exercises.</li>
+            </ul>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">JUN 2023 — SEP 2023</div>
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <h3>Resala Charity Organization</h3>
+            <p class="role">Volunteer · Cairo, Egypt</p>
+            <ul>
+              <li>Coordinated with volunteers to plan and execute community events while maintaining organized documentation.</li>
+              <li>Strengthened teamwork, communication, and community-service skills through direct collaboration.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-shell section-block certifications">
+      <div class="section-heading-row">
+        <div>
+          <p class="section-kicker">05 / CREDENTIALS</p>
+          <h2>Certifications & <span>education</span></h2>
+        </div>
+        <div class="heading-line"></div>
+      </div>
+
+      <div class="credential-grid">
+        <div class="education-card">
+          <span class="credential-label">EDUCATION</span>
+          <h3>Cairo University</h3>
+          <p>Bachelor’s Degree in Computer Science and Artificial Intelligence</p>
+          <span class="credential-meta">Expected 2026 · Cairo, Egypt</span>
+        </div>
+        <div class="cert-card"><span>01</span><strong>Huawei</strong><p>HCIP Security</p></div>
+        <div class="cert-card"><span>02</span><strong>Red Hat</strong><p>System Administration I (RH124)</p></div>
+        <div class="cert-card"><span>03</span><strong>NVIDIA</strong><p>Deep Learning</p></div>
+        <div class="cert-card"><span>04</span><strong>Cisco</strong><p>Cisco Certified Network Associate (CCNA)</p></div>
+        <div class="cert-card"><span>05</span><strong>CompTIA</strong><p>A+ · Network+</p></div>
+        <div class="cert-card"><span>06</span><strong>Ubuntu Linux</strong><p>Essentials</p></div>
+        <div class="cert-card"><span>07</span><strong>Goethe-Institut</strong><p>German Course · B1</p></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell contact-section">
+      <div class="contact-panel">
+        <div>
+          <p class="section-kicker">06 / CONNECT</p>
+          <h2>Let’s build something<br><span>secure.</span></h2>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-email" href="mailto:seif.hossameldein@gmail.com">seif.hossameldein@gmail.com</a>
+          <div class="contact-links">
+            <a href="https://linkedin.com/in/seifelmahalawy" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="https://github.com/seifelmahalawy" target="_blank" rel="noreferrer">GitHub ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>© <span id="year"></span> Seif Elmahalawy</span>
+    <span>Cybersecurity Engineer</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
